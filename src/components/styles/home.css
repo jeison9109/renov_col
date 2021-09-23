@@ -1,0 +1,32 @@
+.container {
+  margin-top: 280px;
+}
+
+.col-md-4 {
+  color: bisque;
+  /*border: solid 2px black;*/
+  margin: 2px;
+}
+
+.logo {
+  margin-top: 250px;
+  margin-bottom: 300px;
+  width: 100%;
+  height: 380px;
+}
+
+.col {
+  margin-top: 2px;
+  /* border: solid 2px black;*/
+}
+
+p {
+  text-align: justify;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-family: fantasy;
+}
