@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/home.css";
+import { Footer } from "../screens/Footer";
 import logo from "../images/logo.png";
+import fondhome from "../images/fondhome.png";
+import fondlogo from "../images/fondlogo.png";
 
 export const Home = () => {
   return (
@@ -80,6 +83,34 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <div className="fondhome" style={{ position: "relative" }}>
+        <img
+          className="fondhome"
+          src={fondhome}
+          //style={{ width: "268", hspace: "16", height: "268", vspace: "16" }}
+          alt={fondhome}
+        />
+        <div
+          className="fondlogo"
+          style={{
+            position: "absolute",
+            top: "0",
+            left: "0",
+            marginTop: "415px",
+            marginLeft: "315px",
+          }}
+        >
+          <img src={fondlogo} alt={fondlogo} />
+        </div>
+      </div>
+      {/* <div className="fondhome">
+        <img src={fondhome} alt={fondhome} />
+
+        <div className="fondlogo">
+          <img src={fondlogo} alt={fondlogo} />
+        </div>
+      </div>*/}
+      <Footer />
     </>
   );
 };

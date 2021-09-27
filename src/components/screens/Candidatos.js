@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/candidatos.css";
 import cardimg from "../images/guio.jpg";
+import { Footer } from "../screens/Footer";
 
 export const Candidatos = () => {
   return (
@@ -53,6 +54,7 @@ export const Candidatos = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

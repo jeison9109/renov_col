@@ -20,12 +20,12 @@
 
 .header {
   width: 100%;
-  background-color: rgb(236, 236, 25);
+  background-color: #fedf00;
   height: 40px;
 }
 
 .nav-container {
-  background-color: rgb(236, 32, 32);
+  background-color: #ed1c24;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +55,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  background-color: rgb(51, 184, 39);
+  background-color: #88bd6c;
   border: inset 0.8px rgb(255, 255, 255);
   border-radius: 15px 15px 15px 15px;
   font-style: italic;
@@ -63,6 +63,7 @@
 }
 
 .nav-item {
+  margin-top: 15px;
   line-height: 40px;
   margin-right: 1rem;
 }
@@ -84,7 +85,7 @@
 }*/
 
 .nav-item .active {
-  background-color: rgb(20, 10, 161);
+  background-color: #293170;
   border: 1px solid teal;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -116,7 +117,7 @@
   }
 
   .nav-menu.active {
-    width: 120px;
+    width: 160px;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./styles/navbar.css";
 import fondo from "../components/images/fon1.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
