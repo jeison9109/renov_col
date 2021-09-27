@@ -2,8 +2,9 @@ import React from "react";
 import "../styles/home.css";
 import { Footer } from "../screens/Footer";
 import logo from "../images/logo.png";
-import fondhome from "../images/fondhome.png";
-import fondlogo from "../images/fondlogo.png";
+//import fondhome from "../images/fondhome.png";
+//import fondlogo from "../images/fondlogo.png";
+import fondrenov from "../images/fondrenov.webp";
 
 export const Home = () => {
   return (
@@ -83,7 +84,10 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="fondhome" style={{ position: "relative" }}>
+      <div className="fondhome">
+        <img src={fondrenov} alt={fondrenov} />
+      </div>
+      {/*  <div className="fondhome" style={{ position: "relative" }}>
         <img
           className="fondhome"
           src={fondhome}
@@ -102,7 +106,7 @@ export const Home = () => {
         >
           <img src={fondlogo} alt={fondlogo} />
         </div>
-      </div>
+      </div>*/}
       {/* <div className="fondhome">
         <img src={fondhome} alt={fondhome} />
 

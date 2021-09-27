@@ -6,7 +6,7 @@ import { Footer } from "../screens/Footer";
 export const Candidatos = () => {
   return (
     <>
-      <div className="fond-candi"></div>
+      <div className="fondcandi"></div>
       <div className="container-candi">
         <div className="container-card">
           <div className="row">

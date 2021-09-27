@@ -13,24 +13,20 @@
   z-index: 20;
 }
 .tex1 {
+  margin-top: 10px;
   font-size: 0.7rem;
   margin-left: 2px;
   border-left: solid 2px white;
 }
 
-.header {
-  width: 100%;
-  background-color: #fedf00;
-  height: 40px;
-}
-
 .nav-container {
+  margin-top: 50px;
   background-color: #ed1c24;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 700px;
-  height: 80px;
+  width: 650px;
+  height: 50px;
   max-width: 1600px;
   border-radius: 40px 40px 40px 40px;
 }
@@ -38,7 +34,7 @@
 .fond-nav img {
   position: absolute;
   width: 100%;
-  height: 400px;
+  height: auto;
   left: 0px;
   margin-top: 0px;
 }
@@ -138,10 +134,14 @@
   .nav-icon {
     display: block;
     position: absolute;
-    top: 0;
+    top: 80px;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 2.8rem;
+    font-size: 2rem;
     cursor: pointer;
+  }
+
+  .tex1 {
+    display: none;
   }
 }

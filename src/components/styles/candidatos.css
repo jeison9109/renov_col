@@ -1,7 +1,9 @@
-.fond-candi {
+.fondcandi {
+  margin-top: 80px;
   background-color: #fedf00;
   width: 100%;
   height: 290px;
+  display: flex;
 }
 
 .container-candi {
@@ -25,4 +27,12 @@
   width: 100%;
   height: auto;
   border: solid 2px red;
+}
+
+@media screen and (max-width: 950px) {
+  .fondcandi {
+    display: flex;
+    height: 20px;
+    margin-top: 40px;
+  }
 }

@@ -1,9 +1,9 @@
 .site-footer {
   background-color: #293170;
-  padding: 45px 0 0px;
+  padding: 5px 0 0px;
   font-size: 15px;
   line-height: 24px;
-  color: cornflowerblue;
+  /* color: cornflowerblue;*/
   margin-top: 0px;
 }
 
@@ -49,14 +49,24 @@
 }
 
 .social-footer {
+  width: 100%;
+  height: auto;
   background-color: #fedf00;
 }
 
 @media (max-width: 991px) {
   .site-footer {
     display: flex;
+    width: 100%;
+    height: auto;
     background-color: #293170;
     margin-top: 0px;
+  }
+
+  .social-footer .copyright-text {
+    width: 100%;
+    height: auto;
+    background-color: #fedf00;
   }
 }
 @media (max-width: 767px) {

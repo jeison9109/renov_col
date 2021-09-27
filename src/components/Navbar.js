@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./styles/navbar.css";
-import fondo from "../components/images/fon1.jpg";
+import fondo from "../components/images/fondnavbar.webp";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="header"></div>
+      {/*<div className="header"></div>*/}
       <div className="fond-nav">
         <img clasName="fondo" src={fondo} alt={fondo} />
         <nav className="navbar">

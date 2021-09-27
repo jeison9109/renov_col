@@ -1,9 +1,13 @@
 import React from "react";
+import { CandidateScreen } from "../candidates/CandidateScreen";
+import "../styles/nosotros.css";
 
 export const Nosotros = () => {
   return (
-    <div>
-      <h1>Nosotros</h1>
-    </div>
+    <>
+      <div className="containerlist">
+        <CandidateScreen />
+      </div>
+    </>
   );
 };
