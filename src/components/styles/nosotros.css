@@ -1,5 +1,13 @@
 .containerlist {
-  margin-top: 370px;
+  margin-top: 380px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 950px) {
+  .containerlist {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
 }
