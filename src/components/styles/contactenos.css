@@ -1,0 +1,18 @@
+.container-form {
+  margin-top: 380px;
+  text-align: center;
+}
+
+.containerfor {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #293170;
+}
+
+@media screen and (max-width: 950px) {
+  .container-form {
+    margin-top: 40px;
+  }
+}
